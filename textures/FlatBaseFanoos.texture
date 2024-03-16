@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "FlatBaseFanoos",
+  "identifier": "texture:8281-b3ceb1c7-e782-455e-aa7e-e3b7243cf538",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "7dee130e58398a4aeb20bfb6497af8db",
+  "assetLocator": "textures/FlatBaseFanoos.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 199,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "7dee130e58398a4aeb20bfb6497af8db",
+      "colorCount": 10185,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 6.150637111002217,
+      "pixelsHigh": 1024,
+      "pixelsWide": 199
+    }
+  ]
+}

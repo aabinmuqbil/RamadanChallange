@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "RamadanMubarak",
+  "identifier": "texture:7904-b3ceb1c7-e782-455e-aa7e-e3b7243cf538",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "04ed5bc628f538665090bfe34f087053",
+  "assetLocator": "textures/RamadanMubarak.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 953,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 885,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "04ed5bc628f538665090bfe34f087053",
+      "colorCount": 42939,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 8.490750964893225,
+      "pixelsHigh": 953,
+      "pixelsWide": 885
+    }
+  ]
+}

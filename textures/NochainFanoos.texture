@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "NochainFanoos",
+  "identifier": "texture:4608-70d89d32-080d-4ff1-99f0-83bdaabd9044",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "03e89c9f029db4c667c97913bbbfbccd",
+  "assetLocator": "textures/NochainFanoos.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 199,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "03e89c9f029db4c667c97913bbbfbccd",
+      "colorCount": 10372,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 6.4503495881639585,
+      "pixelsHigh": 1024,
+      "pixelsWide": 199
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "RamadanMubarakWritten",
+  "identifier": "texture:2387-70d89d32-080d-4ff1-99f0-83bdaabd9044",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "9bac9d243e47c430c77de95f8b0bf91c",
+  "assetLocator": "textures/RamadanMubarakWritten.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 144,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 439,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "9bac9d243e47c430c77de95f8b0bf91c",
+      "colorCount": 360,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 0.7201868335524754,
+      "pixelsHigh": 144,
+      "pixelsWide": 439
+    }
+  ]
+}

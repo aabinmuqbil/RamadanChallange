@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Fanoos",
+  "identifier": "texture:7178-b3ceb1c7-e782-455e-aa7e-e3b7243cf538",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "b99bc0863259507c2a0e09897b046d34",
+  "assetLocator": "textures/Fanoos.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 585,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "b99bc0863259507c2a0e09897b046d34",
+      "colorCount": 15779,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 3.728726009348872,
+      "pixelsHigh": 1024,
+      "pixelsWide": 585
+    }
+  ]
+}

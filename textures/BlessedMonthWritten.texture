@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "BlessedMonthWritten",
+  "identifier": "texture:3772-70d89d32-080d-4ff1-99f0-83bdaabd9044",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "aec5d513f6118af6e015c6b721608cb9",
+  "assetLocator": "textures/BlessedMonthWritten.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 191,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 544,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "aec5d513f6118af6e015c6b721608cb9",
+      "colorCount": 447,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 0.6296025269586248,
+      "pixelsHigh": 191,
+      "pixelsWide": 544
+    }
+  ]
+}
