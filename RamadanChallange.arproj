@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:6535-b3ceb1c7-e782-455e-aa7e-e3b7243cf538",
   "id": "6533b3ceb1c7e782455eaa7ee3b7243cf538",
-  "revision": "5276970d89d32080d4ff199f083bdaabd9044",
+  "revision": "6445470d89d32080d4ff199f083bdaabd9044",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -26,7 +26,9 @@
       "categoriesOrder": [
         "textures",
         "materials",
-        "patch_assets"
+        "patch_assets",
+        "audio",
+        "playback_controllers"
       ]
     }
   ],
@@ -238,7 +240,7 @@
       "effectForcesSynchronousScripting": false,
       "effectHasAmbientAudio": false,
       "effectHasAudioGraphApi": false,
-      "effectHasTriggeredAudio": false,
+      "effectHasTriggeredAudio": true,
       "effectImageAntiAliasingEdgeSharpness": 0.5,
       "effectImageAntiAliasingEdgeThreshold": 0.5,
       "effectImageAntiAliasingTechnique": "fxaa",
@@ -255,7 +257,7 @@
       "effectUsesAnimationScriptingModule": false,
       "effectUsesAppLauncher": false,
       "effectUsesAssistant": false,
-      "effectUsesAudio": false,
+      "effectUsesAudio": true,
       "effectUsesAudioLegacyMicFork": false,
       "effectUsesAudioMixer": false,
       "effectUsesAudioSpatialEmitter": false,
@@ -620,7 +622,13 @@
     {
       "modelName": "target",
       "identifier": "target:6591-b3ceb1c7-e782-455e-aa7e-e3b7243cf538",
-      "targetPlatforms": []
+      "targetPlatforms": [
+        "instagram",
+        "facebook"
+      ],
+      "targetUseCases": [
+        "STORIES"
+      ]
     },
     {
       "modelName": "scripting_config_model",
@@ -638,6 +646,30 @@
     {
       "modelName": "input_mappings_model",
       "identifier": "input_mappings_model:6720-b3ceb1c7-e782-455e-aa7e-e3b7243cf538"
+    },
+    {
+      "modelName": "playback_controllers_model",
+      "identifier": "playback_controllers_model:194-c64c3f85-7148-4c11-ba10-c1cf6e2b2075",
+      "children": [
+        {
+          "sectionFileLocation": "audios/audioPlaybackController0.audioctrl"
+        }
+      ]
+    },
+    {
+      "modelName": "sounds",
+      "identifier": "sounds:200-c64c3f85-7148-4c11-ba10-c1cf6e2b2075",
+      "children": [
+        {
+          "modelName": "sound",
+          "name": "RamdanRamdaaaaan.m4a",
+          "identifier": "sound:2853-c64c3f85-7148-4c11-ba10-c1cf6e2b2075",
+          "assetDataHash": "dd1946874eed58ce16804ca518ea41c8",
+          "assetLocator": "sounds/RamdanRamdaaaaan.m4a",
+          "duration": 49445,
+          "isExternalAsset": true
+        }
+      ]
     }
   ]
 }

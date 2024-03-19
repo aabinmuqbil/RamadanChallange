@@ -182,7 +182,7 @@
                     "scale": false
                   },
                   "cameraVisibility": "back|front",
-                  "height": 772,
+                  "height": 844,
                   "hidden": false,
                   "layerIdentifier": "layer0",
                   "outputVisibility": "preview|capture",
@@ -194,14 +194,14 @@
                     "rx": 0,
                     "ry": 0,
                     "rz": 0,
-                    "sx": 0.0006476683774963021,
-                    "sy": 0.0006476683774963021,
-                    "sz": 0.0006476683774963021,
+                    "sx": 0.0005924170836806297,
+                    "sy": 0.0005924170836806297,
+                    "sz": 0.0005924170836806297,
                     "x": 0,
                     "y": 0,
                     "z": 0
                   },
-                  "width": 360,
+                  "width": 390,
                   "children": [
                     {
                       "modelName": "rectangle_model",
@@ -521,7 +521,7 @@
                       "scaleY": 1,
                       "tags": [],
                       "transform": {
-                        "rx": -0,
+                        "rx": 0,
                         "ry": -2.842170943040401E-14,
                         "rz": 0,
                         "sx": 1,
@@ -634,7 +634,7 @@
                       "scaleY": 1,
                       "tags": [],
                       "transform": {
-                        "rx": -0,
+                        "rx": 0,
                         "ry": -2.842170943040401E-14,
                         "rz": 0,
                         "sx": 1,
@@ -747,7 +747,7 @@
                       "scaleY": 1,
                       "tags": [],
                       "transform": {
-                        "rx": -0,
+                        "rx": 0,
                         "ry": -2.842170943040401E-14,
                         "rz": 0,
                         "sx": 1,
@@ -860,7 +860,7 @@
                       "scaleY": 1,
                       "tags": [],
                       "transform": {
-                        "rx": -0,
+                        "rx": 0,
                         "ry": -2.842170943040401E-14,
                         "rz": 0,
                         "sx": 1,
@@ -1106,6 +1106,54 @@
                         },
                         "value": 126
                       }
+                    },
+                    {
+                      "modelName": "audiosource",
+                      "name": "speaker0",
+                      "identifier": "audiosource:3289-c64c3f85-7148-4c11-ba10-c1cf6e2b2075",
+                      "ambient": false,
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "backedByPlaybackController": true,
+                      "cameraVisibility": "back|front",
+                      "distanceToMaxVolume": 0.2,
+                      "distanceToMinVolume": 4,
+                      "hidden": false,
+                      "layerIdentifier": "layer0",
+                      "manualAudioOverrideEnableCapture": "no_override",
+                      "manualAudioOverrideEnableRender": "no_override",
+                      "needsContinuousLooping": true,
+                      "needsContinuousPlaying": false,
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "playbackControllerIdentifier": "audios/audioPlaybackController0.audioctrl",
+                      "sound": "sound:2853-c64c3f85-7148-4c11-ba10-c1cf6e2b2075",
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "type": "playback_controller",
+                      "vocoderInput": false,
+                      "volume": 1,
+                      "volumeMax": 1,
+                      "volumeMin": 0,
+                      "children": [
+                        {
+                          "modelName": "audioTransforms",
+                          "identifier": "audioTransforms:3291-c64c3f85-7148-4c11-ba10-c1cf6e2b2075"
+                        }
+                      ]
                     }
                   ]
                 },

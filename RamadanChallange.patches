@@ -1,6 +1,6 @@
 {
   "id": "6533b3ceb1c7e782455eaa7ee3b7243cf538",
-  "revision": "5276970d89d32080d4ff199f083bdaabd9044",
+  "revision": "6445470d89d32080d4ff199f083bdaabd9044",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -230,6 +230,14 @@
         "fromPort": "1001",
         "toPatch": "patch_asset_instance_model:4311-70d89d32-080d-4ff1-99f0-83bdaabd9044",
         "toPort": "4754937040575773633"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:5055-c64c3f85-7148-4c11-ba10-c1cf6e2b2075",
+        "fromPatch": "template_patch_model:9857-70d89d32-080d-4ff1-99f0-83bdaabd9044",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:5053-c64c3f85-7148-4c11-ba10-c1cf6e2b2075",
+        "toPort": "1"
       },
       {
         "modelName": "patch_connection_model",
@@ -478,6 +486,7 @@
           "consumer_patch_model:29388-70d89d32-080d-4ff1-99f0-83bdaabd9044",
           "consumer_patch_model:29390-70d89d32-080d-4ff1-99f0-83bdaabd9044",
           "consumer_patch_model:3341-6fd18550-042e-4cb0-8152-c658524c0640",
+          "consumer_patch_model:5053-c64c3f85-7148-4c11-ba10-c1cf6e2b2075",
           "consumer_patch_model:6328-70d89d32-080d-4ff1-99f0-83bdaabd9044",
           "consumer_patch_model:6647-70d89d32-080d-4ff1-99f0-83bdaabd9044",
           "consumer_patch_model:7311-6fd18550-042e-4cb0-8152-c658524c0640",
@@ -694,6 +703,17 @@
         "position": [
           1076,
           -484
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "audioPlaybackController0",
+        "identifier": "consumer_patch_model:5053-c64c3f85-7148-4c11-ba10-c1cf6e2b2075",
+        "object": "playback_controller_model:3731-c64c3f85-7148-4c11-ba10-c1cf6e2b2075",
+        "objectProperty": "audio_playback_controller_play",
+        "position": [
+          -1684,
+          -1300
         ]
       },
       {
